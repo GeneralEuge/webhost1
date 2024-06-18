@@ -198,7 +198,7 @@ section {
     background-size: cover;
     background-position: center;
     color: #fff; 
-    padding: 5em 2em;
+    padding: 8em 2em;
     text-align: center;  
 }
 
@@ -433,6 +433,7 @@ section {
         margin-top: 2em;
     }
 }
+
 footer {
     background-color: rgba(0, 0, 0, 0.4);
     color: #ffffff;
@@ -440,4 +441,51 @@ footer {
     padding: 1em 0;
     position: relative;
     width: 100%;
+}
+
+#skills {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 2em 6em;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.skill-item {
+    width: calc(50% - 2em);
+    margin: 1em;
+    text-align: left;
+}
+
+.skill-name {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.skill-progress {
+    background-color: white;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+}
+
+.skill-progress-bar {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #4caf50;
+    width: 0;
+    transition: width 1s ease;
 }
