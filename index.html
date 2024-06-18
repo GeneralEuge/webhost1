@@ -7,101 +7,128 @@
     <link rel="stylesheet" href="design_template.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 </head>
-
-<div class="container">
-    
-
 <body>
-    <header>
-        <nav id="navbar">
-            <ul>
-                <li><a href="#home" onclick="location.reload();">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="home" class="background-image">
-        <div class="hero-content">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Showcasing my skills and projects.</p>
-        </div>
-    </section>
-    
-    <section id="about" class="about-section">
-        <h2>All About Me</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>I am a second-year student currently pursuing a computer science degree. I have been learning about web development and the four pillars of object-oriented programming for the past two years. This website is designed to showcase the extent of the things I can currently do.</p>
-                <p>I am currently a second-year student pursuing a computer science degree, building upon four years of experience in multimedia and web design during senior high with a MAWD course.</p>
-                <p>In addition to my technical skills, I enjoy working on collaborative projects and participating in coding challenges. I believe in the power of teamwork and strive to contribute effectively to any team I am part of. Through this portfolio, I hope to demonstrate my abilities and connect with like-minded individuals in the tech community.</p>
-                <p>Over the years, I have developed proficiency in CSS, Java, HTML, and JavaScript, with additional knowledge in databases and DotNet technologies.</p>
-                <p>My practical experience includes collaborative projects in game development and web design, where I have contributed to various projects with a focus on quality documentation and project integrity.</p>
-            </div>
-            <div class="about-image">
-                <img src="img/kuroms.png" alt="About Me Image">
-            </div>
-        </div>
-    </section>
-    
-    <section id="portfolio">
-        <h2>My Works</h2>
-        <div class="gallery">
-            <a href="PTscript2/PThtml.html" class="gallery-item">Script Peta</a>
-            <a href="DYA/03Task_Performance_DYA.html" class="gallery-item">Animal Index</a>
-            <a href="#" class="gallery-item" onclick="showPdfAlert()">TP5 (PDF)</a>
-        </div>
-    </section>
+    <div class="container">
+
+        <header>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
         
-    
-    <section id="contact">
-        <div class="footer-distributed">
-            <div class="footer-left">
-                <h3>Portfolio<span>Website</span></h3>
-                <p class="footer-links">
-                    <a href="#home" onclick="location.reload();">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#portfolio">Portfolio</a>
-                    <a href="#contact">Contact</a>
-                </p>
+        <section id="home" class="background-image">
+            <div class="hero-content">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Showcasing my skills and projects.</p>
             </div>
-            <div class="footer-center">
-                <div>
-                    <i class="fa fa-map-marker"></i>
-                    <p><span>Cainta, Rizal</span> Avocado Drive</p>
-                </div>
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <p>0967 243 4606</p>
-                </div>
-                <div>
-                    <i class="fa fa-envelope"></i>
-                    <p><a href="dayana012401@gmail.com">dayana012401@gmail.com</a></p>
-                </div>
-            </div>
-            <div class="footer-right">
-                <p class="footer-company-about">
-                    <span>From the creator</span>
-                    Hope that there are more movies that centers around male psyche
-                    without it being so pretentious and overly descriptive
-                    <br>
-                    - thank god after 4.5 hours this is done
-                </p>
-            </div>
-        </div>
-    </section>            
+        </section>
         
+        <section id="about" class="about-section">
+            <h2>All About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a second-year student currently pursuing a computer science degree. I have been learning about web development and the four pillars of object-oriented programming for the past two years. This website is designed to showcase the extent of the things I can currently do.</p>
+                    <p>I am currently a second-year student pursuing a computer science degree, building upon four years of experience in multimedia and web design during senior high with a MAWD course.</p>
+                    <p>In addition to my technical skills, I enjoy working on collaborative projects and participating in coding challenges. I believe in the power of teamwork and strive to contribute effectively to any team I am part of. Through this portfolio, I hope to demonstrate my abilities and connect with like-minded individuals in the tech community.</p>
+                    <p>Over the years, I have developed proficiency in CSS, Java, HTML, and JavaScript, with additional knowledge in databases and DotNet technologies.</p>
+                    <p>My practical experience includes collaborative projects in game development and web design, where I have contributed to various projects with a focus on quality documentation and project integrity.</p>
+                </div>
+                <div class="about-image">
+                    <img src="img/kuroms.png" alt="About Me Image">
+                </div>
+            </div>
+        </section>
+        
+        <section id="portfolio">
+            <h2>My Works</h2>
+            <div class="gallery">
+                <a href="PTscript2/PThtml.html" class="gallery-item">Script Peta</a>
+                <a href="DYA/03Task_Performance_DYA.html" class="gallery-item">Animal Index</a>
+                <a href="#" class="gallery-item" onclick="showPdfAlert()">TP5 (PDF)</a>
+            </div>
+        </section>
+            
     
-    <footer>
-        <p>&copy; Diana Yvonne Abalo</p>
-    </footer>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Java</div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <h3>Portfolio<span>Website</span></h3>
+                    <p class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#contact">Contact</a>
+                    </p>
+                </div>
+                <div class="footer-center">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>Cainta, Rizal</span> Avocado Drive</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>0967 243 4606</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="dayana012401@gmail.com">dayana012401@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <p class="footer-company-about">
+                        <span>From the creator</span>
+                        Hope that there are more movies that centers around male psyche
+                        without it being so pretentious and overly descriptive
+                        <br>
+                        - thank god after 4.5 hours this is done
+                    </p>
+                </div>
+            </div>
+        </section>            
+        
+        <footer>
+            <p>&copy; Diana Yvonne Abalo</p>
+        </footer>
     
+    </div> 
+
     <script src="smooth_scroll.js"></script>
     <script src="script.js"></script>
+
 </body>
-
-</div>
-
 </html>
