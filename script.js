@@ -16,5 +16,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function showPdfAlert() {
-    alert("This is a PDF. You can check it in the project's folder.");
+    alert("This is a PDF. You will be redirected soon.");
 }
