@@ -16,5 +16,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function showPdfAlert() {
-    alert("This is a PDF. You will be redirected soon.");
+    alert("This is a PDF download, thank you for visiting the site.");
 }
